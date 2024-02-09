@@ -1,21 +1,38 @@
 <!DOCTYPE html>
 <html>
  <head>
-   <title>Example web page</title>
+   <title>Quiz Web App</title>
    <link rel="stylesheet" type="text/css" href="mystyle.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
    <script src="myscript.js"></script>
  </head>
  <body>
-   <h1>Hello, World</h1>
-   <div><p id="p1">
-     Welcome to my web page.  This
-     web page is a demonstration of
-     jQuery.
-   </p></div>
-   <p id="p2" class="disappear"> This is the second paragraph.</p>
-   <p class="disappear"> This is the third paragraph.</p>
-   <p id="imagetoggler">Click to hide or show the image.</p>
-   <img id="img1" src="laser-radial.jpg" alt="Laser Radial sailboat">
+   <h1>Political Science Quiz</h1>
+  <p id="p1">
+     For each questions, click the show answer button to remove incorrect answers.
+   </p>
+   
+   <div id="firstQuestion"><p> Questions 1: </p>
+   <p> Answer 1:</p>
+   <p class="WrongAns1"> Answer 2:</p>
+   <p class="WrongAns1"> Answer 3:</p>
+   <p class="WrongAns1"> Answer 4:</p>
+   <button id="button1" type="button">Show Answer!</button></div>
+   
+   <div id="secondQuestion"><p> Questions 2: </p>
+   <p class="WrongAns2"> Answer 1:</p>
+   <p class="WrongAns2"> Answer 2:</p>
+   <p> Answer 3:</p>
+   <p class="WrongAns2"> Answer 4:</p>
+   <button id="button2" type="button">Show Answer!</button></div>
+
+   <div id="thirdQuestion"><p> Questions 3: </p>
+   <p class="WrongAns3"> Answer 1:</p>
+   <p class="WrongAns3"> Answer 2:</p>
+   <p class="WrongAns3"> Answer 3:</p>
+   <p> Answer 4:</p>
+   <button id="button3" type="button">Show Answer!</button></div>
+
+   
  </body>
 </html>

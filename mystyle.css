@@ -1,13 +1,42 @@
 body{
-    background-color: lightblue;
+    background-color: BlanchedAlmond;
 }
+
+h1{
+    font-size: 500%;
+    color: MediumPurple;
+	text-align: center;
+}
+
 
 p{
     font-size: 200%;
     color: DarkBlue;
 }
 
-img{
-	width: 20%;
-	display: none;
+#p1{
+	text-align: center;
 }
+
+#firstQuestion{
+	position: absolute;
+	top: 40%; 
+	left: 10%;
+/* 	text-align: center; */
+}
+
+#secondQuestion{
+	position: absolute;
+	top: 40%; 
+	right: 43%;
+/* 	text-align: center; */
+}
+
+#thirdQuestion{
+	position: absolute;
+	top: 40%;
+	right: 10%;
+/* 	text-align: right; */
+
+}
+
