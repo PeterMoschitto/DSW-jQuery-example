@@ -14,6 +14,21 @@ $(document).ready(function() {
 		
 	});
 	
+	$("#button1").dblclick(function(){
+		$(".WrongAns1").fadeIn();
+		
+	});
+	
+	$("#button2").dblclick(function(){
+		$(".WrongAns2").fadeIn();
+		
+	});
+	
+	$("#button3").dblclick(function(){
+		$(".WrongAns3").fadeIn();
+		
+	});
+	
 	
 	
 	
