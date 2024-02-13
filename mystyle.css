@@ -21,22 +21,22 @@ p{
 #firstQuestion{
 	position: absolute;
 	top: 40%; 
-	left: 10%;
-/* 	text-align: center; */
+	left: 9%;
+	text-align: center;
 }
 
 #secondQuestion{
 	position: absolute;
 	top: 40%; 
-	right: 43%;
-/* 	text-align: center; */
+	right: 38%;
+	text-align: center;
 }
 
 #thirdQuestion{
 	position: absolute;
 	top: 40%;
-	right: 10%;
-/* 	text-align: right; */
+	right: 2%;
+	text-align: center;
 
 }
 

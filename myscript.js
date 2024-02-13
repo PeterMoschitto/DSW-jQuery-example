@@ -28,7 +28,7 @@ $(document).ready(function() {
 		$(".WrongAns3").fadeIn();
 		
 	});
-	
+});
 	
 	
 	
@@ -56,4 +56,4 @@ $(document).ready(function() {
 // 	$("#p2").click(function(){
 // 		$(".slideUp(3000)");
 // 	});
-});
+
