@@ -10,7 +10,7 @@ h1{
 
 
 p{
-    font-size: 200%;
+    font-size: 160%;
     color: DarkBlue;
 }
 
@@ -18,24 +18,21 @@ p{
 	text-align: center;
 }
 
+div {
+	float: left; 
+/* 	padding: 5%; */
+	margin: 6%;
+}
+
 #firstQuestion{
-	position: absolute;
-	top: 40%; 
-	left: 9%;
 	text-align: center;
 }
 
 #secondQuestion{
-	position: absolute;
-	top: 40%; 
-	right: 38%;
 	text-align: center;
 }
 
 #thirdQuestion{
-	position: absolute;
-	top: 40%;
-	right: 2%;
 	text-align: center;
 
 }
@@ -51,4 +48,43 @@ button:hover{
 button:active{
 	background: grey;
 }
+
+#flag{
+display: block;
+float: left;
+/* margin: center; */
+border: 3px inset black;
+width: 15%;
+}
+
+#flag2{
+display: block;
+float: right;
+/* margin: right; */
+border: 3px inset black;
+width: 15%;
+}
+
+#flag:hover{
+animation-name: flag;
+animation-duration: 8s;
+}
+
+ 
+ @keyframes flag {
+ 	0% {transform: rotate(0deg);}
+ 	12% {transform: rotate(45deg);}
+ 	24% {transform: rotate(90deg);}
+ 	37% {transform: rotate(135deg);}
+ 	50% {transform: rotate(180deg);}
+ 	62% {transform: rotate(225deg);}
+ 	75% {transform: rotate(270deg);}
+ 	85% {transform: rotate(315deg);}
+ 	100% {transform: rotate(360deg);}
+
+
+
+
+ }
+
 
